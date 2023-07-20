@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.form-control{
+  border:ridge firebrick 15px;
+  background-color:darkorchid;
+}
+
+.increase{
+  color:chartreuse;
+  background-color:crimson;
+  border:outset teal 15px;
+}
+
+.increase:hover{
+  border-radius:20px;
+}
+
+.decrease{
+  margin:20px;
+  color:forestgreen;
+  background-color:darkviolet;
+  border:inset peru 15px;
+}
+
+.decrease:hover{
+  border-radius:20px;
+}
+
+.clear{
+  margin:20px;
+  color:indianred;
+  background-color:darkcyan;
+  border:ridge saddlebrown 15px;
+}
+
+.clear:hover{
+  border-radius:20px;
+}
+
+.para1{
+  margin-top:20px;
+  color:cornflowerblue;
+}
+
+.para2{
+  color:olive;
+}
+
+.para3{
+  color:mediumspringgreen;
+}
+
+h2{
+  margin:25px;
+  border:solid lightseagreen 15px;
+  padding:10px;
+  color:magenta;
+  background-color:saddlebrown;
+  display:inline-block;
+}
